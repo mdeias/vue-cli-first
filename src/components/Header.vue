@@ -1,6 +1,6 @@
 <template>
-  <header>
-      <h1>Titolo</h1>
+  <header class="padding-left radius">
+      <h1>HEADER</h1>
   </header>
 </template>
 
@@ -10,6 +10,18 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
+header{
+    height: 30%;
+    width: 85%;
+    background-color:papayawhip;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: navy;
+}
 
+H1{
+    font-size: 100px;
+}
 </style>
